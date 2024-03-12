@@ -1,0 +1,12 @@
+output/
+tmp/
+data/
+**/CLIFF_ckpt/*
+**/data_sets/*
+**/extradata/*
+**/preprocessed_db/*
+**/__pycache__
+05-17_coco_eft.json
+05-18_coco_ours_noshape.json
+KITRO.o*
+
