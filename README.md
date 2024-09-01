@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <h4> <a href="#">[Paper link]</a>, <a href="#">[Supp link]</a></h4>
+  <h4> <a href=https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_KITRO_Refining_Human_Mesh_by_2D_Clues_and_Kinematic-tree_Rotation_CVPR_2024_paper.pdf>[Paper]</a>, <a href=https://openaccess.thecvf.com/content/CVPR2024/supplemental/Yang_KITRO_Refining_Human_CVPR_2024_supplemental.pdf>[Supp]</a>, <a href=http://arxiv.org/abs/2405.19833>[arXiv]</a></h4>
 </div>
 
 ## 1. Requirements
@@ -51,8 +51,16 @@
 If you find our paper or codes useful, please consider citing our paper:
 
 ```bibtex
+@InProceedings{KITRO_2024,
+    author    = {Yang, Fengyuan and Gu, Kerui and Yao, Angela},
+    title     = {KITRO: Refining Human Mesh by 2D Clues and Kinematic-tree Rotation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {1052-1061}
+}
 ```
 
 ## Acknowledgments
 
-Our codes are based on [SPIN](https://github.com/nkolot/SPIN/tree/master), [CLIFF](https://github.com/huawei-noah/noah-research/tree/master/CLIFF), and [HybrIK](https://github.com/Jeff-sjtu/HybrIK) and we really appreciate it. 
+Our codes are based on [SPIN](https://github.com/nkolot/SPIN/tree/master), [CLIFF](https://github.com/huawei-noah/noah-research/tree/master/CLIFF), [SMPLify](https://github.com/vchoutas/smplify-x/blob/master), and [HybrIK](https://github.com/Jeff-sjtu/HybrIK) and we really appreciate it. 
